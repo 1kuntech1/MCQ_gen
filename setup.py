@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from setuptools import setup, find_packages
 
 setup(
@@ -10,7 +9,7 @@ setup(
     packages=find_packages()
     
     )
-=======
+
 from setuptools import find_packages, setup
 
 setup(
@@ -21,4 +20,3 @@ setup(
     install_requirments = ['openai', 'langchain', 'streamlit', 'python-dotenv', 'PyPDF2'],
     packages = find_packages()
 )
->>>>>>> 2f4f2de37c6ebe90019cd88d5fc5902f08ec15f8
