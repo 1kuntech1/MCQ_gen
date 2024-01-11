@@ -1,10 +1,16 @@
 Metadata-Version: 2.1
 Name: mcqgenrator
 Version: 0.0.1
-Author: KÛЙÐÅŊ
+Summary: mcqgenrator can genrate the mcq by receving inputs
+Author: Kundan
 Author-email: kundan9910558927@gmail.com
+Classifier: Programming Language :: python :: 3.7 - 3.10
+Classifier: Operating System :: os Independent
+Description-Content-Type: text/markdown
 Requires-Dist: openai
 Requires-Dist: langchain
 Requires-Dist: streamlit
 Requires-Dist: python-dotenv
 Requires-Dist: PyPDF2
+
+mcqgenrator python module
