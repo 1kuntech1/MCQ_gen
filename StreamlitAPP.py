@@ -6,7 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from src.mcqgenrator.utils import read_file, get_table_data
 from src.mcqgenrator.logger import logging
-from src.mcqgenrator import generate_evaluate_chain
+from src.mcqgenrator.mcqGenrator import generate_evaluate_chain
 
 # importing necessary pacakges from langchin
 from langchain.callbacks import get_openai_callback
