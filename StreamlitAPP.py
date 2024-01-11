@@ -49,7 +49,7 @@ with st.form("user_inputs"):
                         "number": mcq_count,
                         "subject": subject,
                         "tone": tone,
-                        "response_json": json.dumps(Response_JSON)
+                        "response_json": json.dumps(RESPONSE_JSON)
                         }
                     )
                 #st.write(response)
