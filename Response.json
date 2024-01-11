@@ -1,13 +1,13 @@
-Response_JSON = {
+    {
     "1":{
         "MCQ": "multiple choice question",
         "options": {
             "a": "choice here",
             "b": "choice here",
             "c": "choice here",
-            "d": "choice here",
+            "d": "choice here"
         },
-        "correct": "correct answer",
+        "correct": "correct answer"
     },
     "2":{
         "MCQ": "multiple choice question",
@@ -15,9 +15,9 @@ Response_JSON = {
             "a": "choice here", 
             "b": "choice here",
             "c": "choice here",
-            "d": "choice here",
+            "d": "choice here"
         },
-        "correct": "correct answer",
+        "correct": "correct answer"
     },
     "3":{
         "MCQ": "multiple choice question",
@@ -25,9 +25,9 @@ Response_JSON = {
             "a": "choice here",
             "b": "choice here",
             "c": "choice here",
-            "d": "choice here",
+            "d": "choice here"
         },
-        "correct": "correct answer",
+        "correct": "correct answer"
     },
     "4":{
         "MCQ": "multiple choice question",
@@ -35,9 +35,9 @@ Response_JSON = {
             "a": "choice here" ,
             "b": "choice here",
             "c": "choice here",
-            "d": "choice here",
+            "d": "choice here"
         },
-        "correct": "correct answer",
+        "correct": "correct answer"
     },
     "5":{
         "MCQ": "multiple choice question",
@@ -45,8 +45,8 @@ Response_JSON = {
             "a": "choice here", 
             "b": "choice here",
             "c": "choice here",
-            "d": "choice here",
+            "d": "choice here"
         },
-        "correct": "correct answer",
-    },
+        "correct": "correct answer"
+    }
 }

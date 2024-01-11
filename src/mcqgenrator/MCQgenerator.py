@@ -3,8 +3,8 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from mcqgenrator.utils import read_file, get_table_data
-from mcqgenrator.logger import logging
+# from mcqgenrator.utils import read_file, get_table_data
+# from mcqgenrator.logger import logging
 
 # importing necessary pacakges from langchin
 from langchain.chains import LLMChain
@@ -17,7 +17,7 @@ from langchain.chains import SequentialChain
 load_dotenv()
 
 # Access the enviroment variables just like you would with os.envirom
-Key = os.getenv("OPENAI_APE_KEY")
+Key = os.getenv("OPENAI_API_KEY")
 
 llm = ChatOpenAI(open_api_key= Key,
                  model_name="gpt-3.5-turbo",

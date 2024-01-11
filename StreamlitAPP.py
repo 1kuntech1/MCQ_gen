@@ -12,8 +12,9 @@ from src.mcqgenrator.MCQgenerator import generate_evaluate_chain
 from langchain.callbacks import get_openai_callback
 
 # loading json file
-with open("F:\python\code\project\gan_project\mcq_gen\Response.json") as file:
-    RESPONSE_JSON = json.load(file)
+with open("F:\python\code\project\gan_project\mcq_gen\Response.json","r") as file:
+    json_data = file.read()
+    file_data = json.loads(json_data)
     
 #Create a title for the app
 st.title("MCQs Creator Applicatioon with LangChin....")
