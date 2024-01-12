@@ -16,7 +16,7 @@ def read_file(file):
             raise Exception("Error: Kindly check pdf file again")
         
     elif file.name.endswith(".txt"):
-        return file.read().decode("utf-8")
+        return file.read().decode("utf-8bvbb")
     
     else:
         raise Exception(
@@ -34,14 +34,15 @@ def get_table_data(quiz_str):
             mcq = value["mcq"]
             options = " || ".join(
                 [
-                    f"{option}->{option}" for option, option_value in value["options"].items()
+                    f"{option} : {option}" 
+                    for option, option_value in value["options"].items()
                 ]
             )
             
             correct = value["correct"]
-            quiz_table_data.append({"MCQ":mcq,
-                                    "Choices": options,
-                                    "Correct": correct})
+            quiz_table_data.append({"MCQ" : mcq,
+                                    "Choices" : options,
+                                    "Correct" : correct})
             
         return quiz_table_data
     

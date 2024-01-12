@@ -14,7 +14,7 @@ from langchain.callbacks import get_openai_callback
 # loading json file
 with open("F:\python\code\project\gan_project\mcq_gen\Response.json","r") as file:
     json_data = file.read()
-    file_data = json.loads(json_data)
+    RESPONSE_JSON = json.loads(json_data)
     
 #Create a title for the app
 st.title("MCQs Creator Applicatioon with LangChin....")
@@ -71,6 +71,7 @@ with st.form("user_inputs"):
                     if quiz is not None:
                         table_data = get_table_data(quiz)
                         if table_data is not None:
+                            st.write(table_data)
                             df = pd.DataFrame(table_data)
                             df.index = df.index + 1
                             st.table(df)
